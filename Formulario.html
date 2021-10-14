@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Formulário de cadastro
+        </title>
+    </head>
+    <body>
+        <p>Abaixo informe seus dados corretamente para que se obtenha exito no cadastro.</p>
+        <form method="post" action="">
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                <label>Nome: <input type="text" name="nome" required></label>
+                <label>Email: <input type="email" name="email" required></label>
+                <label>CPF: <input type="number" name="cpf" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Endereço</legend>
+                <label>Cep: <input type="text" name="cep"></label>
+                <br><br>
+                <label>Rua: <input type="text" name="rua" required></label>
+                <label>Bairro: <input type="text" name="bairro" required></label>
+                <label>Cidade: <input type="text" name="cidade" required></label>
+                <label>Número: <input type="number" name="numero" required></label>
+            </fieldset>
+            <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Apagar</button>
+        </form>
+    </body>
+</html>
