@@ -7,36 +7,45 @@
         </title>
     </head>    
     <body>
-        <a name="inicio"></a>
-        <picture>
-            <img src=  "logo.png">
-        </picture>
-        <a href="Home.html">Menu Inicial</a><span> --</span>
-        <a href="Formulario.html">Cadastro</a><span> --</span>
-        <a href="Produtos.html">Nossos Produtos</a><span> --</span>
-        <a href="#contato">Contato</a><span> --</span>
+        <header>
+            <a name="inicio"></a>
+            <picture>
+                <img src=  "logo.png">
+            </picture>
+        </header>
+
+        <nav>
+            <a href="Home.html">Menu Inicial</a><span> --</span>
+            <a href="Formulario.html">Cadastro</a><span> --</span>
+            <a href="Produtos.html">Nossos Produtos</a><span> --</span>
+            <a href="#contato">Contato</a><span> --</span>
+        </nav>
+
         <hr>
-        <p>Nesse campo você poderá avaliar o serviço que prestamos, basta escolher uma opção e deixar seu comentário</p> 
-        <form method="post" action="">
-            <fieldset>
-                <legend>Informações Pessoais</legend>
-                <label>Nome: <input type="text" name="nome" required></label>
-                <label>Email: <input type="email" name="email" required></label>
-            </fieldset>
-            <label>Opções:
-                <select name="opções">
-                    <option value="sugestão">Sugestões</option>
-                    <option value="reclamação">Reclamações</option>
-                    <option value="elogio">Elogios</option>
-                    <option value="erro">Relatar erros</option>
-                </select>
-            </label>
-            <br><br>
-            <textarea name="Descrição" required></textarea> 
-            <br><br>
-            <button type="submit">Enviar</button>
-            <button type="reset">Apagar</button>
-        </form>
+
+        <main>
+            <p>Nesse campo você poderá avaliar o serviço que prestamos, basta escolher uma opção e deixar seu comentário</p> 
+            <form method="post" action="">
+                <fieldset>
+                    <legend>Informações Pessoais</legend>
+                    <label>Nome: <input type="text" name="nome" required></label>
+                    <label>Email: <input type="email" name="email" required></label>
+                </fieldset>
+                <label>Opções:
+                    <select name="opções">
+                        <option value="sugestão">Sugestões</option>
+                        <option value="reclamação">Reclamações</option>
+                        <option value="elogio">Elogios</option>
+                        <option value="erro">Relatar erros</option>
+                    </select>
+                </label>
+                <br><br>
+                <textarea name="Descrição" required></textarea> 
+                <br><br>
+                <button type="submit">Enviar</button>
+                <button type="reset">Apagar</button>
+            </form>
+        </main>
 
         <br><br><br><hr>
 
