@@ -5,26 +5,26 @@
         <title>
             Formulário de cadastro
         </title>
+        <link rel="stylesheet" href="main.css" media="all">
     </head>
     <body>
         <header>
             <a name="inicio"></a>
-            <picture>
-                <img src=  "logo.png">
-            </picture>
+            <h1 id="dominio">CHOCOLATARIA PRAZERES</h1>
+            <h2 id="dominio2">Para todos os gostos...</h2>
         </header>
 
         <nav>
-            <a href="Home.html">Menu Inicial</a><span> --</span>
-            <a href="Produtos.html">Nossos Produtos</a><span> --</span>
-            <a href="#contato">Contato</a><span> --</span>
-            <a href="Avaliacao.html">Nos Avalie</a>
+            <Button><a id="a" href="Home.html">Menu Inicial</a></Button>
+            <Button><a id="a" href="Produtos.html">Nossos Produtos</a></Button>
+            <Button><a id="a" href="#contato">Contato</a></Button>
+            <Button><a id="a" href="Avaliacao.html">Nos Avalie</a></Button>
         </nav>
 
         <hr>
 
         <main>
-            <p>Abaixo informe seus dados corretamente para que se obtenha exito no cadastro.</p>
+            <p id="texto">Abaixo informe seus dados corretamente para que se obtenha exito no cadastro.</p>
             <form method="post" action="">
                 <fieldset>
                     <legend>Informações Pessoais</legend>
@@ -42,8 +42,8 @@
                     <label>Número: <input type="number" name="numero" required></label>
                 </fieldset>
                 <br>
-                <button type="submit">Enviar</button>
-                <button type="reset">Apagar</button>
+                <button class="botoes" id="botao" type="submit">Enviar</button>
+                <button class="botoes" id="botao" type="reset">Apagar</button>
             </form>
         </main>
 
@@ -51,21 +51,17 @@
 
         <footer>
             <a name="contato"></a>
-			Murilo Marques
+    		Murilo Marques
             <br>
-            <picture>
+            <picture class="informacoes">
                 <img width="30" height="20" src=  "insta.png">
-            </picture>
-            <a href="https://www.instagram.com/muriloo_marques/" target="_blank"> @Muriloo_Marques</a>
-            <br>
-            <picture>
+                <a href="https://www.instagram.com/muriloo_marques/" target="_blank"> @Muriloo_Marques</a>
                 <img width="30" height="20" src=  "Linkedin.png">
+                <a href="https://www.linkedin.com/in/murilo-dos-prazeres-marques-956a9b191/" target="_blank"> @Murilo Marques</a>
+                <img width="30" height="30" src=  "email.png">
+                mdpmarques31@gmail.com
             </picture>
-            <a href="https://www.linkedin.com/in/murilo-dos-prazeres-marques-956a9b191/" target="_blank"> @Murilo Marques</a>
-            <br>
-			mdpmarques31@gmail.com
-            <br>
-            <a href="#inicio">Inicio</a>
+            <Button><picture><img src="seta.png"><a id="a" href="#inicio">Inicio</a></picture></Button>
         </footer>
     </body>
 </html>

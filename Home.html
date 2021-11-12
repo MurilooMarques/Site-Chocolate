@@ -5,62 +5,75 @@
         <title>
             Home
         </title>
+        <link rel="stylesheet" href="main.css" media="all">
     </head>
     <body>
         <header>
             <a name="inicio"></a>
-            <picture>
-                <img src= "logo.png">
-            </picture>
+            <h1 id="dominio">CHOCOLATARIA PRAZERES</h1>
+            <h2 id="dominio2">Para todos os gostos...</h2>
         </header>
 
         <nav>
-            <a href="formulario.html">Cadastro</a><span> --</span>
-            <a href="Produtos.html">Nossos Produtos</a><span> --</span>
-            <a href="#destaques">Produtos em Promoção</a><span> --</span>
-            <a href="#contato">Contato</a><span> --</span>
-            <a href="Avaliacao.html">Nos Avalie</a>
+            <button class="botoes"><a id="a" href="formulario.html">Cadastro</a></button>
+            <button class="botoes"><a id="a" href="Produtos.html">Nossos Produtos</a></button>
+            <button class="botoes"><a id="a" href="#destaques">Produtos em Promoção</a></button>
+            <button class="botoes"><a id="a" href="#contato">Contato</a></button>
+            <button class="botoes"><a id="a" href="Avaliacao.html">Nos Avalie</a></button>
         </nav>
         
         <hr>
 
         <main>
             <picture>
-                <img src=  "https://github.com/MurilooMarques/Site-Chocolate/blob/main/banner.png?raw=true">
+                <img  id="banner" src=  "banner.png">
             </picture>	
 
             <a name="destaques"></a>
-            <h1>Produtos em destaque!</h1>
+            <div>
+                <h1 id="destaque">Produtos em destaque!</h1>
 
-            <p>Confira nossos produtos que estão com 15% de desconto</p>
+                <p id="texto">Confira nossos produtos que estão com 15% de desconto</p>
 
-            <picture>
-                <p>KIT 3 CAIXAS DE CHOCOLATE, LACTA, NESTLE, GAROTO</p>
-                <img src=  "https://github.com/MurilooMarques/Site-Chocolate/blob/main/Produtos/kit2.png?raw=true">
-                <p>R$ 27,99</p> 
-            </picture>
+                <picture class="blocos">
+                    <div id="produto">
+                        <p>KIT 3 CAIXAS DE CHOCOLATE, LACTA, NESTLE, GAROTO</p>
+                        <img src=  "https://github.com/MurilooMarques/Site-Chocolate/blob/main/Produtos/kit2.png?raw=true">
+                        <p>R$ 27,99</p> 
+                    </div>
+                </picture> 
+            </div>
 
             <br><br>
 
-            <p>Confira nossos produtos que estão com 10% de desconto</p>
-            
-            <picture>
-                <p>LAKA OREO</p>
-                <img src=  "https://github.com/MurilooMarques/Site-Chocolate/blob/main/Produtos/oreo.png?raw=true">
-                <p>R$ 5,99</p> 
-                <hr>
-                <p>DIAMANTE NEGRO</p>
-                <img src=  "https://github.com/MurilooMarques/Site-Chocolate/blob/main/Produtos/diamante-negro.png?raw=true"> 
-                <p>R$ 5,99</p> 
-                <hr>
-                <p>DIPLOMATA</p>
-                <img src=  "https://github.com/MurilooMarques/Site-Chocolate/blob/main/Produtos/diplomata.png?raw=true"> 
-                <p>R$ 6,19</p> 
-                <hr>
-                <p>GAROTO CHURROS</p>
-                <img src=  "https://github.com/MurilooMarques/Site-Chocolate/blob/main/Produtos/churros.png?raw=true">   
-                <p>R$ 6,45</p> 
-            </picture>
+            <div>
+                <p id="texto">Confira nossos produtos que estão com 10% de desconto</p>
+                
+                    <picture class="blocos">
+                        <div id="produto">
+                            <p>LAKA OREO</p>
+                            <img src=  "https://github.com/MurilooMarques/Site-Chocolate/blob/main/Produtos/oreo.png?raw=true">
+                            <p>R$ 5,99</p>
+                        </div> 
+                        <div id="produto">
+                            <p>DIAMANTE NEGRO</p>
+                            <img src=  "https://github.com/MurilooMarques/Site-Chocolate/blob/main/Produtos/diamante-negro.png?raw=true"> 
+                            <p>R$ 5,99</p>
+                        </div>  
+                    </picture>
+                    <picture class="blocos">
+                        <div id="produto">
+                            <p>DIPLOMATA</p>
+                            <img src=  "https://github.com/MurilooMarques/Site-Chocolate/blob/main/Produtos/diplomata.png?raw=true"> 
+                            <p>R$ 6,19</p> 
+                        </div> 
+                        <div id="produto">
+                            <p>GAROTO CHURROS</p>
+                            <img src=  "https://github.com/MurilooMarques/Site-Chocolate/blob/main/Produtos/churros.png?raw=true">   
+                            <p>R$ 6,45</p> 
+                        </div> 
+                    </picture>
+            </div>
         </main>
 
         <br><br><br><hr>
@@ -69,19 +82,15 @@
             <a name="contato"></a>
     		Murilo Marques
             <br>
-            <picture>
+            <picture class="informacoes">
                 <img width="30" height="20" src=  "insta.png">
-            </picture>
-            <a href="https://www.instagram.com/muriloo_marques/" target="_blank"> @Muriloo_Marques</a>
-            <br>
-            <picture>
+                <a href="https://www.instagram.com/muriloo_marques/" target="_blank"> @Muriloo_Marques</a>
                 <img width="30" height="20" src=  "Linkedin.png">
+                <a href="https://www.linkedin.com/in/murilo-dos-prazeres-marques-956a9b191/" target="_blank"> @Murilo Marques</a>
+                <img width="30" height="30" src=  "email.png">
+                mdpmarques31@gmail.com
             </picture>
-            <a href="https://www.linkedin.com/in/murilo-dos-prazeres-marques-956a9b191/" target="_blank"> @Murilo Marques</a>
-            <br>
-			mdpmarques31@gmail.com
-            <br>
-            <a href="#inicio">Inicio</a>
+            <Button><picture><img src="seta.png"><a id="a" href="#inicio">Inicio</a></picture></Button>
         </footer>
     </body>
 </html>
